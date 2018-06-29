@@ -1,14 +1,64 @@
 Data: 16/06/2018
 Nome: Paulo Henrique Bernardo Melo
 
-1. Utilize o programa criado pelo professor para baixar as páginas principais dos seguintes sites:
-	(a) www.google.com
-	(b) www.google.com.br
-	(c) www.unb.br
-	(d) fga.unb.br
+11_GPIO_1.md
 
-Comente os resultados obtidos para cada página, em termos das respostas HTTP e HTML obtidas.
+1. Apresente 5 sistemas operacionais suportados pelo Raspberry Pi, e algumas de suas características.
 
+    Raspbian: sistema operacional (SO) oficial, baseado no Debian GNU/Linux.
+    Possibilita o uso de grande parte dos pacotes disponíveis nos repositórios do
+    Debian e possui software especializado para as placas Raspberry.
+    Ubuntu MATE: derivação oficial do Ubuntu que usa o abiente de área de
+    trabalho MATE.
+    Snappy Ubuntu Core: versão mínima do Ubuntu voltada para dispositivos IoT.
+    Precisa de credenciais Ubuntu SSO.
+    Windows 10 IoT Core: sucessor do Windows CE.
+    OSMC: sistema de código livre e aberto especializado em reproduzir mídia.
+    Baseado no Debian GNu/Linux e no Kodi Media Center.
+
+2. Apresente as formas de instalação de sistemas operacionais para o Raspberry Pi.
+
+    Instalação apartir de uma midia de instalação, no caso por via de um SD card aonde o mesmo fica instalado tambem pode ser por meio do porprio instalador.
+
+3. Apresente 3 formas de desenvolvimento de software para o Raspberry Pi.
+
+    Compilação cruzada no computador anfitrião (host) e enviar executáveis pela conexão SSH, compilação direta no Raspberry por meio de   conexão pelo SSH e compilação cruzada e colocar executáveis diretamente no sistema de arquivos.
+
+4.  Apresente 3 formas de acesso remoto ao Raspberry Pi.
+
+    SSH via rede, VNC, terminal UART (porta serial).
+
+5.  Apresente as formas possíveis de compilação de código em C para o Raspberry Pi.
+
+    Compilação na propria Raspberry usando o GCC. Compilação em um computador com outra arquitetura através de uma toolchain que permita compilação cruzada.
+
+6.   Apresente as formas possíveis de compilação de código em Python para o Raspberry Pi.
+
+    Por meio do interpretador especifico.
+
+11_GPIO_2.md
+
+
+1. Defina qual modelo de Raspberry Pi você utilizará no projeto desta disciplina com o Raspberry Pi. Justifique sua escolha.  
+
+	Será utilizado o modelo 3B, o qual possui maior capacidade de processamento que
+	os demais modelos ate o presente ato da compra. A mesma da uma maior possibilidade tanto por seu 
+	aparente poder quanto por já vir adaptada com modulo bluetooth e wi-fi.
+
+2. Defina qual sistema operacional você utilizará no projeto desta disciplina com o Raspberry Pi. Justifique sua escolha.  
+
+	Será utilizado o Raspbian, pois grande parte dos softwares e das bibliotecas
+	que o projeto precisará estão já empacotadas neste sistema. Por ser alguem 
+	iniciante com o ambiente da raspberry esse é o mais indicado segundo
+	pesquisa.
+
+3. Defina de qual forma você instalará o sistema operacional escolhido. Escreva o passo-a-passo da instalação e forneça os links necessários para isto.
+  
+	Será utilizado o Raspbian, o qual será instalado através do instalador Lite do
+	próprio sistema operacional, dispensando o uso de ambiente gráfico pois o
+	projeto não requer um.
+
+4. Defina de qual forma você desenvolverá software para o Raspberry Pi no projeto desta disciplina. Escreva o passo-a-passo do desenvolvimento e forneça os links necessários para isto.  
 
 
 
