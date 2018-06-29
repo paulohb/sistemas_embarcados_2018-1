@@ -1,13 +1,14 @@
 Data: 16/06/2018
 Nome: Paulo Henrique Bernardo Melo
 
-1. Utilize o programa criado pelo professor para baixar as páginas principais dos seguintes sites:
-	(a) www.google.com
-	(b) www.google.com.br
-	(c) www.unb.br
-	(d) fga.unb.br
+11_GPIO_4.md
 
-Comente os resultados obtidos para cada página, em termos das respostas HTTP e HTML obtidas.
+
+1. Escreva um código em C para gerar uma onda quadrada de 1 Hz em um pino GPIO do Raspberry Pi.
+
+2. Generalize o código acima para qualquer frequência possível.
+
+3.  Crie dois processos, e faça com que o processo-filho gere uma onda quadrada, enquanto o processo-pai lê um botão no GPIO, aumentando a frequência da onda sempre que o botão for pressionado. A frequência da onda quadrada deve começar em 1 Hz, e dobrar cada vez que o botão for pressionado. A frequência máxima é de 64 Hz, devendo retornar a 1 Hz se o botão for pressionado novamente.
 
 
 
